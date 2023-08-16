@@ -13,7 +13,7 @@ public class MyCompanyThree {
         staff2.displayDetail();
         staff4.displayDetail();
     }
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         MyCompanyThree mct = new MyCompanyThree();
         mct.init();
     }
