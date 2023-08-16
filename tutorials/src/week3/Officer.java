@@ -1,4 +1,4 @@
-package week3.tutorials;
+package week3;
 
 public class Officer extends EmployeeThree {
     private double petrol;

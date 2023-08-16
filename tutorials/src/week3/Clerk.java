@@ -1,4 +1,4 @@
-package week3.tutorials;
+package week3;
 
 public class Clerk extends EmployeeThree{
     private double cola;

@@ -1,4 +1,4 @@
-package week3.tutorials;
+package week3;
 
 public class Manager extends EmployeeThree {
     private String car;
