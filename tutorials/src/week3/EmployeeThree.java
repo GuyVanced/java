@@ -1,8 +1,7 @@
 package week3;
-
 public class EmployeeThree {
 
-    private String name;
+    private final String name;
     private double salary;
     private boolean status;
 
@@ -32,7 +31,6 @@ public class EmployeeThree {
     public void resigned() {
         status = false;
     }
-
     public void displayDetail() {
         System.out.println("==========================");
         System.out.println("NAME : " + name);
