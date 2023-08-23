@@ -1,0 +1,19 @@
+package week4.exercise.library;
+
+public class Book {
+    String title;
+    String author;
+    String ISBN;
+
+    public Book(String title, String author, String ISBN) {
+        this.title = title;
+        this.author = author;
+        this.ISBN = ISBN;
+    }
+
+    @Override
+    public String toString() {
+        return "Title : " + title + ", Author : " + author + ", ISBN: " + ISBN;
+
+    }
+}
