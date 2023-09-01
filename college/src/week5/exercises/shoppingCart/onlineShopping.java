@@ -25,10 +25,10 @@ class OnlineShopping {
         for(int itemNo : items.keySet()){
             System.out.println(itemNo + ". " + items.get(itemNo));
         }
-        System.out.println("0. Back \n");
+        System.out.println("\n0. Back ");
         int itemNo =0;
          do {
-             System.out.println("Select an item to add to your cart : ");
+             System.out.print("Select an item to add to your cart : ");
              itemNo = scan.nextInt();
              if(itemNo== 0){
                  showMenu();
@@ -38,8 +38,6 @@ class OnlineShopping {
              }
 
          }while(itemNo!=0);
-
-
     }
 
     public void showMenu(){
@@ -61,14 +59,7 @@ class OnlineShopping {
             case 3:
                 System.out.println("Thank you for shopping with us");
                 break;
-
         }
-
-
     }
-
-
-
-
 
 }
