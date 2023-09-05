@@ -27,7 +27,7 @@ public class RecordManager {
             if(position>3){
                 break;
             }
-            System.out.println("\t" + position + ". " + student);
+            System.out.println(" \t" + position + ". " + student);
             position++;
         }
     }
